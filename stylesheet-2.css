@@ -1,0 +1,70 @@
+/* layout one*/
+*{
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+width:100%
+}
+
+ul {
+	padding: 0
+}
+
+body{
+	margin:0;
+}
+
+#Background-1 {
+      background-color: rgba(251,249,241,1);
+   }
+
+div.content-1{
+	width:60%;
+	padding-left: 50px;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+span.underline1 {
+      font-family: serif;
+      text-decoration: underline;
+   }
+span.highlight-1 {
+      background-color: black;
+      color:rgba(251,249,241,1);
+      font-family:helvetica, sans-serif;
+   }
+span.greeting1 {
+   font-family: monospace;
+   font-size: 30px;
+   }
+p .l-1  {
+      color: blue;
+   }
+   p {
+      margin-bottom: 20px;
+   }
+/* lay out 2 below */
+/* im really not doing well at #1 */
+table {
+   font-family:Avenir;
+   font-size: 14px;
+   border-spacing:0;
+}
+th {
+   text-align: center;
+   font-weight:bold;
+   border-bottom:solid 20px rgba(255,255,255,0.0);
+}
+td.home {
+   border-top: solid 1px rgba(237,237,237,0.8);
+   color:#66CC99;
+}
+td {
+   border-right: solid 1px rgba(237,237,237,1);
+   border-left: solid 1px rgba(237,237,237,1);
+   border-bottom: solid 1px rgba(237,237,237,0.8);
+   width: 150px;
+
+}
